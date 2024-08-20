@@ -1,0 +1,67 @@
+.dateTimeMain {
+  height: auto;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  // grid-row-start: 2;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.dateTimeHeading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.dateTimeDiv {
+  grid-row-start: 5;
+  // grid-row-end: 5;
+  place-self: center;
+}
+
+.buttonNext {
+  background-color: #ffa823;
+  //color: white;
+  font-size: 1.5rem;
+  width: 30%;
+  place-self: center end;
+
+  grid-column-start: 2;
+  //grid-column-end: 3;
+
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  cursor: pointer;
+}
+
+.buttonSelect {
+  background-color: #ffa823;
+  //color: white;
+  font-size: 1.5rem;
+  width: 30%;
+  place-self: center;
+
+  grid-column-start: 2;
+  //grid-column-end: 3;
+
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  cursor: pointer;
+}
+
+.buttonPrev {
+  background-color: #ffa823;
+  //color: white;
+  font-size: 1.5rem;
+  width: 30%;
+  place-self: center start;
+
+  grid-column-start: 2;
+  //grid-column-end: 3;
+
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  cursor: pointer;
+}

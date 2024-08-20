@@ -1,0 +1,23 @@
+.landingMain {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 10% auto 10%;
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.button {
+  background-color: #ffa823;
+  //color: white;
+  font-size: 2rem;
+  width: 50%;
+  place-self: center;
+
+  grid-column-start: 2;
+  //grid-column-end: 3;
+
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.buttonNext {
+  background-color: #ffa823;
+  //color: white;
+  font-size: 1.5rem;
+  width: 30%;
+  place-self: center end;
+
+  grid-column-start: 2;
+  //grid-column-end: 3;
+
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  cursor: pointer;
+}
+
+.buttonPrev {
+  background-color: #ffa823;
+  //color: white;
+  font-size: 1.5rem;
+  width: 30%;
+  place-self: center start;
+
+  grid-column-start: 2;
+  //grid-column-end: 3;
+
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  cursor: pointer;
+}

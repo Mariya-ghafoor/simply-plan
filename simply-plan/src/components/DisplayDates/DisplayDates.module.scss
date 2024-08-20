@@ -1,0 +1,55 @@
+.displayDatesDiv {
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  grid-row-start: 6;
+}
+
+.table {
+  font-size: 1rem;
+  display: table;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  margin-bottom: 50px;
+
+  caption {
+    font-size: 1.5rem;
+    margin-top: 50px;
+  }
+
+  thead th:nth-child(1) {
+    // background-color: yellow;
+    width: 30%;
+  }
+
+  thead th:nth-child(2) {
+    // background-color: pink;
+    width: 30%;
+  }
+
+  thead th:nth-child(3) {
+    // background-color: greenyellow;
+    width: 40%;
+  }
+
+  thead th {
+    background-color: #ffa823;
+    padding: 10px 10px;
+  }
+
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    //background-color: #04aa6d;
+    color: black;
+  }
+
+  td {
+    padding: 10px 10px;
+  }
+
+  tbody {
+    border-bottom: 1px solid #bbb;
+  }
+}

@@ -1,0 +1,19 @@
+.form {
+  place-self: center;
+
+  grid-column-start: 2;
+  //grid-column-end: 3;
+
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.textInputField {
+  //background-color: #ffa823;
+  //color: white;
+  height: 50px;
+  width: 300px;
+  font-size: 2rem;
+
+  cursor: pointer;
+}
